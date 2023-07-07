@@ -1,58 +1,45 @@
-# FlashCards Starter Kit
+<div id="description" align="center">
 
-## Fork This Repo
+# Flashcards
 
-On the top right corner of this page, click the **Fork** button.
+### Contributor:
 
-## Setup
+##### Judy Ye
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+[![LinkedIn](https://img.shields.io/badge/Judy-blue?style=for-the-badge&logo=LinkedIn&logoColor=black)](https://www.linkedin.com/in/judy-ye-742087279/)
 
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
+[![Github](https://img.shields.io/badge/Judy-grey?style=for-the-badge&logo=GitHub&logoColor=black)](https://github.com/judy0ye/)
 
-Once you have cloned the repo, change into the directory and install the library dependencies using the command:
+</div>
 
-```bash
-npm install
-```
+## :pencil: Abstract
 
-To verify that it is setup correctly, run `npm test` in your terminal. You should have skipped tests in your `card` test file show up.
+This application allows users to play a game with a total of 30 flashcards on the command-line interface, CLI. Each flashcard contains 1 question and 3 possible answers. At the end of the game, the CLI will display the percentage of answers the user guessed correctly.
 
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
+## 🎥 Preview
+<details open><summary>Gif</summary>
+  
+![ezgif-1-4d3d317873](https://github.com/judy0ye/flashcards-starter/assets/129805348/78f5a0e9-9b80-43f3-a065-9a82488e2554)
 
-```bash
-Your project is running...
-```
+</details>
 
-*Note that you will not need to you run this file until you are running your `game` file in Iteration 3. Prior to that, you should strive to use TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+## 🏫 Context
+Code was contributed to a partially constructed application from Turing School of Software and Design. The specs and prompts were followed to make a working application that focuses on modular, reusable code that follow the single responsibility principle. The goal was also to implement a testing suite using TDD.
+
+## 🖥️ Technologies Used
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
+![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
+![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
+![Node](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js)
+![Mocha](https://img.shields.io/badge/-Mocha-05122A?style=flat&logo=mocha)
+![Chai](https://img.shields.io/badge/-Chai-05122A?style=flat&logo=chai)
 
 
-## Where to Add Your Code
-
-**Create all of your feature code files in the `src` directory.** Use the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to run the `node index.js` command in your terminal to run the game.
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `card-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
+## 💻 Installation Instructions
+In order to use this project, please follow the steps below:
+- Fork this repository
+- Clone down the forked repository
+- CD into the repository 
+- Run node index.js
+- View and interact with the project live on your CLI in your terminal
